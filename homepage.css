@@ -1,0 +1,69 @@
+
+/* General Formatting */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+
+/* Heading Formatting */
+h1 {
+    font-size: 2em;  /* 2em = 32px */
+  }
+  
+  h2 {
+    font-size: 1.75em; /* 1.75em = 28px */
+  }
+  
+  h3 {
+    font-size: 1.5em;  /* 1.5em = 24px */
+  }
+  
+  h4 {
+    font-size: 1.25em; /* 1.25em = 20px */
+  }
+  
+  h5 {
+    font-size: 1.1em;  /* 1.1em = 17.6px */
+  }
+  
+  h6 {
+    font-size: 1em;    /* 1em = 16px (default font size) */
+  }
+
+.navbar.bg-body-tertiary {
+    /* background-color: orange !important; */
+    width: 100vw;
+    position: fixed;
+    display: flex;
+
+  }
+
+  .meme-section {
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-meme {
+    transform: rotate(180deg);
+    transition: transform 1s ease; 
+}
+
+
+.dog-meme:hover {
+    transform: rotate(360deg);
+}
+
+
