@@ -67,3 +67,12 @@ h1 {
 }
 
 
+.projects-form-outer-section {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
